@@ -18,7 +18,7 @@
         "service_worker": "background.js"
     },
 
-    "content_scripts": [{
+    "content_script-off": [{
         "js": [ "content.js" ],
         "matches": [ "*://example.com/*" ]
     }],
@@ -36,6 +36,7 @@
     },
 
 	"permissions": [
-		"declarativeNetRequest"
+		"declarativeNetRequest",
+		"nativeMessaging"
 	]
 }
