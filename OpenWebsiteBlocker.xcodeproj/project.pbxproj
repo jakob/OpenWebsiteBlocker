@@ -7,18 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3666EF822AE90D0E00BEEA82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3666EF812AE90D0E00BEEA82 /* AppDelegate.swift */; };
-		3666EF862AE90D0E00BEEA82 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 3666EF842AE90D0E00BEEA82 /* Main.html */; };
-		3666EF882AE90D0E00BEEA82 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3666EF872AE90D0E00BEEA82 /* Icon.png */; };
-		3666EF8A2AE90D0E00BEEA82 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3666EF892AE90D0E00BEEA82 /* Style.css */; };
-		3666EF8C2AE90D0E00BEEA82 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3666EF8B2AE90D0E00BEEA82 /* Script.js */; };
-		3666EF8E2AE90D0E00BEEA82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3666EF8D2AE90D0E00BEEA82 /* ViewController.swift */; };
-		3666EF912AE90D0E00BEEA82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3666EF8F2AE90D0E00BEEA82 /* Main.storyboard */; };
-		3666EF932AE90D1000BEEA82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3666EF922AE90D1000BEEA82 /* Assets.xcassets */; };
 		3666EF9F2AE90D1000BEEA82 /* OpenWebsiteBlockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3666EF9E2AE90D1000BEEA82 /* OpenWebsiteBlockerTests.swift */; };
 		3666EFA92AE90D1000BEEA82 /* OpenWebsiteBlockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3666EFA82AE90D1000BEEA82 /* OpenWebsiteBlockerUITests.swift */; };
 		3666EFAB2AE90D1000BEEA82 /* OpenWebsiteBlockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3666EFAA2AE90D1000BEEA82 /* OpenWebsiteBlockerUITestsLaunchTests.swift */; };
-		3666EFB12AE90D1000BEEA82 /* OpenWebsiteBlocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3666EFB02AE90D1000BEEA82 /* OpenWebsiteBlocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3666EFB62AE90D1000BEEA82 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3666EFB52AE90D1000BEEA82 /* SafariWebExtensionHandler.swift */; };
 		3666EFB92AE90D1000BEEA82 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 3666EFB82AE90D1000BEEA82 /* _locales */; };
 		3666EFBB2AE90D1000BEEA82 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3666EFBA2AE90D1000BEEA82 /* images */; };
@@ -28,24 +19,15 @@
 		3666EFC32AE90D1000BEEA82 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 3666EFC22AE90D1000BEEA82 /* popup.html */; };
 		3666EFC52AE90D1000BEEA82 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 3666EFC42AE90D1000BEEA82 /* popup.css */; };
 		3666EFC72AE90D1000BEEA82 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 3666EFC62AE90D1000BEEA82 /* popup.js */; };
+		36AB9DEF2AE958810078690E /* OpenWebsiteBlocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3666EFB02AE90D1000BEEA82 /* OpenWebsiteBlocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		36C5FBE82AE950F900C4A577 /* OpenWebsiteBlockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5FBE72AE950F900C4A577 /* OpenWebsiteBlockerApp.swift */; };
+		36C5FBEA2AE950F900C4A577 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C5FBE92AE950F900C4A577 /* ContentView.swift */; };
+		36C5FBEC2AE950FA00C4A577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C5FBEB2AE950FA00C4A577 /* Assets.xcassets */; };
+		36C5FBF02AE950FA00C4A577 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C5FBEF2AE950FA00C4A577 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3666EF9B2AE90D1000BEEA82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3666EF762AE90D0E00BEEA82 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3666EF7D2AE90D0E00BEEA82;
-			remoteInfo = OpenWebsiteBlocker;
-		};
-		3666EFA52AE90D1000BEEA82 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3666EF762AE90D0E00BEEA82 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3666EF7D2AE90D0E00BEEA82;
-			remoteInfo = OpenWebsiteBlocker;
-		};
-		3666EFB22AE90D1000BEEA82 /* PBXContainerItemProxy */ = {
+		36AB9DF02AE958810078690E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3666EF762AE90D0E00BEEA82 /* Project object */;
 			proxyType = 1;
@@ -55,13 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3666EFCF2AE90D1000BEEA82 /* Embed Foundation Extensions */ = {
+		36AB9DF22AE958810078690E /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				3666EFB12AE90D1000BEEA82 /* OpenWebsiteBlocker Extension.appex in Embed Foundation Extensions */,
+				36AB9DEF2AE958810078690E /* OpenWebsiteBlocker Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,7 +51,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3666EF7E2AE90D0E00BEEA82 /* OpenWebsiteBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWebsiteBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3666EF812AE90D0E00BEEA82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3666EF852AE90D0E00BEEA82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		3666EF872AE90D0E00BEEA82 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -97,16 +78,15 @@
 		3666EFC62AE90D1000BEEA82 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		3666EFC82AE90D1000BEEA82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3666EFC92AE90D1000BEEA82 /* OpenWebsiteBlocker_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenWebsiteBlocker_Extension.entitlements; sourceTree = "<group>"; };
+		36C5FBE52AE950F900C4A577 /* OpenWebsiteBlocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWebsiteBlocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C5FBE72AE950F900C4A577 /* OpenWebsiteBlockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWebsiteBlockerApp.swift; sourceTree = "<group>"; };
+		36C5FBE92AE950F900C4A577 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		36C5FBEB2AE950FA00C4A577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36C5FBED2AE950FA00C4A577 /* OpenWebsiteBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenWebsiteBlocker.entitlements; sourceTree = "<group>"; };
+		36C5FBEF2AE950FA00C4A577 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3666EF7B2AE90D0E00BEEA82 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3666EF972AE90D1000BEEA82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,32 +108,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		36C5FBE22AE950F900C4A577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		3666EF752AE90D0E00BEEA82 = {
 			isa = PBXGroup;
 			children = (
-				3666EF802AE90D0E00BEEA82 /* OpenWebsiteBlocker */,
+				36C5FBE62AE950F900C4A577 /* OpenWebsiteBlocker */,
+				3666EF802AE90D0E00BEEA82 /* OpenWebsiteBlockerOld */,
 				3666EF9D2AE90D1000BEEA82 /* OpenWebsiteBlockerTests */,
 				3666EFA72AE90D1000BEEA82 /* OpenWebsiteBlockerUITests */,
 				3666EFB42AE90D1000BEEA82 /* OpenWebsiteBlocker Extension */,
 				3666EF7F2AE90D0E00BEEA82 /* Products */,
+				36AB9DEA2AE9586A0078690E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		3666EF7F2AE90D0E00BEEA82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3666EF7E2AE90D0E00BEEA82 /* OpenWebsiteBlocker.app */,
 				3666EF9A2AE90D1000BEEA82 /* OpenWebsiteBlockerTests.xctest */,
 				3666EFA42AE90D1000BEEA82 /* OpenWebsiteBlockerUITests.xctest */,
 				3666EFB02AE90D1000BEEA82 /* OpenWebsiteBlocker Extension.appex */,
+				36C5FBE52AE950F900C4A577 /* OpenWebsiteBlocker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3666EF802AE90D0E00BEEA82 /* OpenWebsiteBlocker */ = {
+		3666EF802AE90D0E00BEEA82 /* OpenWebsiteBlockerOld */ = {
 			isa = PBXGroup;
 			children = (
 				3666EF812AE90D0E00BEEA82 /* AppDelegate.swift */,
@@ -164,7 +153,7 @@
 				3666EF952AE90D1000BEEA82 /* OpenWebsiteBlocker.entitlements */,
 				3666EF832AE90D0E00BEEA82 /* Resources */,
 			);
-			path = OpenWebsiteBlocker;
+			path = OpenWebsiteBlockerOld;
 			sourceTree = "<group>";
 		};
 		3666EF832AE90D0E00BEEA82 /* Resources */ = {
@@ -221,28 +210,36 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		36AB9DEA2AE9586A0078690E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36C5FBE62AE950F900C4A577 /* OpenWebsiteBlocker */ = {
+			isa = PBXGroup;
+			children = (
+				36C5FBE72AE950F900C4A577 /* OpenWebsiteBlockerApp.swift */,
+				36C5FBE92AE950F900C4A577 /* ContentView.swift */,
+				36C5FBEB2AE950FA00C4A577 /* Assets.xcassets */,
+				36C5FBED2AE950FA00C4A577 /* OpenWebsiteBlocker.entitlements */,
+				36C5FBEE2AE950FA00C4A577 /* Preview Content */,
+			);
+			path = OpenWebsiteBlocker;
+			sourceTree = "<group>";
+		};
+		36C5FBEE2AE950FA00C4A577 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				36C5FBEF2AE950FA00C4A577 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3666EF7D2AE90D0E00BEEA82 /* OpenWebsiteBlocker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3666EFD02AE90D1000BEEA82 /* Build configuration list for PBXNativeTarget "OpenWebsiteBlocker" */;
-			buildPhases = (
-				3666EF7A2AE90D0E00BEEA82 /* Sources */,
-				3666EF7B2AE90D0E00BEEA82 /* Frameworks */,
-				3666EF7C2AE90D0E00BEEA82 /* Resources */,
-				3666EFCF2AE90D1000BEEA82 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3666EFB32AE90D1000BEEA82 /* PBXTargetDependency */,
-			);
-			name = OpenWebsiteBlocker;
-			productName = OpenWebsiteBlocker;
-			productReference = 3666EF7E2AE90D0E00BEEA82 /* OpenWebsiteBlocker.app */;
-			productType = "com.apple.product-type.application";
-		};
 		3666EF992AE90D1000BEEA82 /* OpenWebsiteBlockerTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3666EFD32AE90D1000BEEA82 /* Build configuration list for PBXNativeTarget "OpenWebsiteBlockerTests" */;
@@ -254,7 +251,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				3666EF9C2AE90D1000BEEA82 /* PBXTargetDependency */,
 			);
 			name = OpenWebsiteBlockerTests;
 			productName = OpenWebsiteBlockerTests;
@@ -272,7 +268,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				3666EFA62AE90D1000BEEA82 /* PBXTargetDependency */,
 			);
 			name = OpenWebsiteBlockerUITests;
 			productName = OpenWebsiteBlockerUITests;
@@ -296,6 +291,25 @@
 			productReference = 3666EFB02AE90D1000BEEA82 /* OpenWebsiteBlocker Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		36C5FBE42AE950F900C4A577 /* OpenWebsiteBlocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C5FBF12AE950FA00C4A577 /* Build configuration list for PBXNativeTarget "OpenWebsiteBlocker" */;
+			buildPhases = (
+				36C5FBE12AE950F900C4A577 /* Sources */,
+				36C5FBE22AE950F900C4A577 /* Frameworks */,
+				36C5FBE32AE950F900C4A577 /* Resources */,
+				36AB9DF22AE958810078690E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36AB9DF12AE958810078690E /* PBXTargetDependency */,
+			);
+			name = OpenWebsiteBlocker;
+			productName = OpenWebsiteBlocker;
+			productReference = 36C5FBE52AE950F900C4A577 /* OpenWebsiteBlocker.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -306,9 +320,6 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					3666EF7D2AE90D0E00BEEA82 = {
-						CreatedOnToolsVersion = 15.0.1;
-					};
 					3666EF992AE90D1000BEEA82 = {
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = 3666EF7D2AE90D0E00BEEA82;
@@ -319,6 +330,9 @@
 					};
 					3666EFAF2AE90D1000BEEA82 = {
 						CreatedOnToolsVersion = 15.0.1;
+					};
+					36C5FBE42AE950F900C4A577 = {
+						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
@@ -335,7 +349,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3666EF7D2AE90D0E00BEEA82 /* OpenWebsiteBlocker */,
+				36C5FBE42AE950F900C4A577 /* OpenWebsiteBlocker */,
 				3666EF992AE90D1000BEEA82 /* OpenWebsiteBlockerTests */,
 				3666EFA32AE90D1000BEEA82 /* OpenWebsiteBlockerUITests */,
 				3666EFAF2AE90D1000BEEA82 /* OpenWebsiteBlocker Extension */,
@@ -344,19 +358,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3666EF7C2AE90D0E00BEEA82 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3666EF882AE90D0E00BEEA82 /* Icon.png in Resources */,
-				3666EF912AE90D0E00BEEA82 /* Main.storyboard in Resources */,
-				3666EF8C2AE90D0E00BEEA82 /* Script.js in Resources */,
-				3666EF862AE90D0E00BEEA82 /* Main.html in Resources */,
-				3666EF932AE90D1000BEEA82 /* Assets.xcassets in Resources */,
-				3666EF8A2AE90D0E00BEEA82 /* Style.css in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3666EF982AE90D1000BEEA82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,18 +387,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		3666EF7A2AE90D0E00BEEA82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		36C5FBE32AE950F900C4A577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3666EF8E2AE90D0E00BEEA82 /* ViewController.swift in Sources */,
-				3666EF822AE90D0E00BEEA82 /* AppDelegate.swift in Sources */,
+				36C5FBF02AE950FA00C4A577 /* Preview Assets.xcassets in Resources */,
+				36C5FBEC2AE950FA00C4A577 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		3666EF962AE90D1000BEEA82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,23 +424,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		36C5FBE12AE950F900C4A577 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C5FBEA2AE950F900C4A577 /* ContentView.swift in Sources */,
+				36C5FBE82AE950F900C4A577 /* OpenWebsiteBlockerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3666EF9C2AE90D1000BEEA82 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3666EF7D2AE90D0E00BEEA82 /* OpenWebsiteBlocker */;
-			targetProxy = 3666EF9B2AE90D1000BEEA82 /* PBXContainerItemProxy */;
-		};
-		3666EFA62AE90D1000BEEA82 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3666EF7D2AE90D0E00BEEA82 /* OpenWebsiteBlocker */;
-			targetProxy = 3666EFA52AE90D1000BEEA82 /* PBXContainerItemProxy */;
-		};
-		3666EFB32AE90D1000BEEA82 /* PBXTargetDependency */ = {
+		36AB9DF12AE958810078690E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3666EFAF2AE90D1000BEEA82 /* OpenWebsiteBlocker Extension */;
-			targetProxy = 3666EFB22AE90D1000BEEA82 /* PBXContainerItemProxy */;
+			targetProxy = 36AB9DF02AE958810078690E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -587,6 +587,7 @@
 				CODE_SIGN_ENTITLEMENTS = "OpenWebsiteBlocker Extension/OpenWebsiteBlocker_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZF84SJ5A3G;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "OpenWebsiteBlocker Extension/Info.plist";
@@ -616,6 +617,7 @@
 				CODE_SIGN_ENTITLEMENTS = "OpenWebsiteBlocker Extension/OpenWebsiteBlocker_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZF84SJ5A3G;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "OpenWebsiteBlocker Extension/Info.plist";
@@ -634,74 +636,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = at.eggerapps.OpenWebsiteBlocker.Extension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		3666EFD12AE90D1000BEEA82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = OpenWebsiteBlocker/OpenWebsiteBlocker.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = OpenWebsiteBlocker;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = at.eggerapps.OpenWebsiteBlocker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		3666EFD22AE90D1000BEEA82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = OpenWebsiteBlocker/OpenWebsiteBlocker.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = OpenWebsiteBlocker;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = at.eggerapps.OpenWebsiteBlocker;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -773,6 +707,80 @@
 			};
 			name = Release;
 		};
+		36C5FBF22AE950FA00C4A577 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenWebsiteBlocker/OpenWebsiteBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenWebsiteBlocker/Preview Content\"";
+				DEVELOPMENT_TEAM = ZF84SJ5A3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = at.eggerapps.OpenWebsiteBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36C5FBF32AE950FA00C4A577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenWebsiteBlocker/OpenWebsiteBlocker.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenWebsiteBlocker/Preview Content\"";
+				DEVELOPMENT_TEAM = ZF84SJ5A3G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = at.eggerapps.OpenWebsiteBlocker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -794,15 +802,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3666EFD02AE90D1000BEEA82 /* Build configuration list for PBXNativeTarget "OpenWebsiteBlocker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3666EFD12AE90D1000BEEA82 /* Debug */,
-				3666EFD22AE90D1000BEEA82 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3666EFD32AE90D1000BEEA82 /* Build configuration list for PBXNativeTarget "OpenWebsiteBlockerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -817,6 +816,15 @@
 			buildConfigurations = (
 				3666EFD72AE90D1000BEEA82 /* Debug */,
 				3666EFD82AE90D1000BEEA82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C5FBF12AE950FA00C4A577 /* Build configuration list for PBXNativeTarget "OpenWebsiteBlocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C5FBF22AE950FA00C4A577 /* Debug */,
+				36C5FBF32AE950FA00C4A577 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
