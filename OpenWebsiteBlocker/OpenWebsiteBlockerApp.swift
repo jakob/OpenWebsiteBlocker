@@ -14,9 +14,11 @@ let extensionBundleIdentifier = "at.eggerapps.OpenWebsiteBlocker.Extension"
 struct OpenWebsiteBlockerApp: App {
 	
 	var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+		MenuBarExtra(content: {
+			ContentView()
+		}, label: {
+			Image(systemName: "globe")
+		}).menuBarExtraStyle(.window)
     }
 	
 	init() {

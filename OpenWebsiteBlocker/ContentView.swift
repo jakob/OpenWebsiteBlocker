@@ -18,7 +18,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
 			Spacer()
-			Text("Blocked Websites").font(.title)
+			Text("OpenWebsiteBlocker").font(.title).frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading).padding(.horizontal)
+			Spacer()
+			Text("Blocked Sites:").frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading).padding(.horizontal)
 			List(blockedDomainsArray, id:\.self) {
 				domain in
 				HStack {
@@ -46,11 +48,13 @@ struct ContentView: View {
 			}
 		}.padding(.horizontal)
 		Divider().padding(.horizontal)
-		Button("Show Safari Extension Preferences") {
-			SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier)
-		}
-		Spacer()
-		Text("Changes take effect after disabling + enabling the extension in Safari").font(.caption).foregroundStyle(Color.secondary)
+		Text("The selected websites will be blocked by Safari when the OpenWebsiteBlocker extension is enabled. Changes take effect after disabling + enabling the extension.").font(.caption).foregroundStyle(Color.secondary).multilineTextAlignment(.leading).padding(.horizontal)
+		HStack {
+			Spacer()
+			Button("Show Safari Extension Preferences") {
+				SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier)
+			}.controlSize(.small)
+		}.padding(.horizontal)
 		Spacer()
     }
 }
