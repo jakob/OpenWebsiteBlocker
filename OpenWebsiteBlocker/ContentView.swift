@@ -45,7 +45,7 @@ struct ContentView: View {
 				var domains = Set(blockedDomainsArray)
 				domains.insert(newDomain)
 				blockedDomains = domains.joined(separator: "\n")
-			}
+			}.disabled(newDomain.isEmpty)
 		}.padding(.horizontal)
 		Divider().padding(.horizontal)
 		Text("The selected websites will be blocked by Safari when the OpenWebsiteBlocker extension is enabled. Changes take effect after disabling + enabling the extension.").font(.caption).foregroundStyle(Color.secondary).multilineTextAlignment(.leading).padding(.horizontal)
