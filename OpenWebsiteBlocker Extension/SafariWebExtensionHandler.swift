@@ -33,7 +33,7 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
 		if message as? String == "BlockedDomains" {
 			if let sharedDefaults = UserDefaults(suiteName: "group.OpenWebsiteBlocker") {
 				os_log(.default, "user default: \(sharedDefaults.value(forKey: "BlockedDomains") as? NSObject, privacy: .public)")
-				if let blockedDomains = sharedDefaults.string(forKey: "BlockedDomains")?.components(separatedBy: .newlines) {
+				if let blockedDomains = sharedDefaults.string(forKey: "BlockedDomains")?.components(separatedBy: .newlines).filter({!$0.isEmpty}) {
 					os_log(.default, "Extension requested BlockedDomains, returning: \(blockedDomains, privacy: .public)")
 					response.userInfo = [ SFExtensionMessageKey: blockedDomains ]
 				} else {
