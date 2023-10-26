@@ -14,11 +14,17 @@ let extensionBundleIdentifier = "at.eggerapps.OpenWebsiteBlocker.Extension"
 struct OpenWebsiteBlockerApp: App {
 	
 	var body: some Scene {
+#if os(macOS)
 		MenuBarExtra(content: {
 			ContentView()
 		}, label: {
 			Image(systemName: "globe")
 		}).menuBarExtraStyle(.window)
+#else
+		WindowGroup {
+			ContentView()
+		}
+#endif
     }
 	
 	init() {
@@ -27,6 +33,7 @@ struct OpenWebsiteBlockerApp: App {
 }
 
 func updateExtensionState() {
+#if os(macOS)
 	SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
 		guard let state = state, error == nil else {
 			print("Checking extension state failed: \(error?.localizedDescription)")
@@ -35,6 +42,6 @@ func updateExtensionState() {
 		}
 		print("Extension enabled: \(state.isEnabled)")
 	}
-
+#endif
 }
 

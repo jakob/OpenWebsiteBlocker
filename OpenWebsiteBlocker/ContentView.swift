@@ -36,8 +36,10 @@ struct ContentView: View {
 					.buttonStyle(.borderless)
 				}
 			}
+#if os(macOS)
 			.listStyle(.bordered)
 			.padding(.horizontal)
+#endif
         }
 		HStack {
 			TextField("example.com", text: $newDomain)
@@ -49,12 +51,14 @@ struct ContentView: View {
 		}.padding(.horizontal)
 		Divider().padding(.horizontal)
 		Text("The selected websites will be blocked by Safari when the OpenWebsiteBlocker extension is enabled. Changes take effect after disabling + enabling the extension.").font(.caption).foregroundStyle(Color.secondary).multilineTextAlignment(.leading).padding(.horizontal)
+#if os(macOS)
 		HStack {
 			Spacer()
 			Button("Show Safari Extension Preferences") {
 				SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier)
 			}.controlSize(.small)
 		}.padding(.horizontal)
+#endif
 		Spacer()
     }
 }
